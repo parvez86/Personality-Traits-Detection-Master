@@ -1,0 +1,5 @@
+Numpy
+Pandas
+Pickle
+Scikit-Learn
+NLTK
