@@ -122,7 +122,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.39 (+/- 0.37)
     * Best Model: AdaBoost (mse: 0.37)
 
-  * **Traits neu: yes**
+  * **Traits Neuroticism: yes**
     * KNN Regression MSE: 0.34 (+/- 0.10)
     * Decision Tree Regression MSE: 0.34 (+/- 0.10)
     * Random Forest Regression MSE: 0.28 (+/- 0.09)
@@ -132,7 +132,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.28 (+/- 0.14)
     * Best Model: Gradient Boosting (mse: 0.26)
 
-  * **Traits neu: no**
+  * **Traits Neuroticism: no**
      * KNN Regression MSE: 0.26 (+/- 0.03)
      * Decision Tree Regression MSE: 0.25 (+/- 0.01)
      * Random Forest Regression MSE: 0.22 (+/- 0.02)
@@ -142,7 +142,7 @@ Predicting user's personality traits.
      * Support Vector Machine(SVM) Regression MSE: 0.20 (+/- 0.02)
      * Best Model: AdaBoost (mse: 0.19)
 
-  * **Traits agr: yes**
+  * **Traits Agreeableness: yes**
     * KNN Regression MSE: 0.18 (+/- 0.12)
     * Decision Tree Regression MSE: 0.20 (+/- 0.11)
     * Random Forest Regression MSE: 0.17 (+/- 0.12)
@@ -153,7 +153,7 @@ Predicting user's personality traits.
     * Best Model: AdaBoost (mse: 0.15)
 
 
-  * **Traits agr: no**
+  * **Traits Agreeableness: no**
     * KNN Regression MSE: 0.18 (+/- 0.04)
     * Decision Tree Regression MSE: 0.19 (+/- 0.04)
     * Random Forest Regression MSE: 0.16 (+/- 0.04)
@@ -163,7 +163,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.15 (+/- 0.05)
     * Best Model: Gradient Boosting (mse: 0.14)
 
-  * **Traits con: yes**
+  * **Traits Conscientiousness: yes**
     * KNN Regression MSE: 0.24 (+/- 0.09)
     * Decision Tree Regression MSE: 0.26 (+/- 0.10)
     * Random Forest Regression MSE: 0.22 (+/- 0.10)
@@ -173,7 +173,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.20 (+/- 0.09)
     * Best Model: AdaBoost (mse: 0.19)
 
-  * **Traits con: no**
+  * **Traits Conscientiousness: no**
     * KNN Regression MSE: 0.28 (+/- 0.15)
     * Decision Tree Regression MSE: 0.30 (+/- 0.16)
     * Random Forest Regression MSE: 0.26 (+/- 0.15)
@@ -183,7 +183,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.25 (+/- 0.21)
     * Best Model: Gradient Boosting (mse: 0.23)
 
-  * **Traits opn: yes**
+  * **Traits Openness: yes**
     * KNN Regression MSE: 0.13 (+/- 0.05)
     * Decision Tree Regression MSE: 0.13 (+/- 0.05)
     * Random Forest Regression MSE: 0.11 (+/- 0.06)
@@ -193,7 +193,7 @@ Predicting user's personality traits.
     * Support Vector Machine(SVM) Regression MSE: 0.10 (+/- 0.06)
     * Best Model: AdaBoost (mse: 0.10)
 
-  * **Traits con: no**
+  * **Traits Openness: no**
     * KNN Regression MSE: 0.31 (+/- 0.14)
     * Decision Tree Regression MSE: 0.35 (+/- 0.11)
     * Random Forest Regression MSE: 0.27 (+/- 0.10)
@@ -204,183 +204,37 @@ Predicting user's personality traits.
     * Best Model: Gradient Boosting (mse: 0.25)
 
 ## Sample Output
- * **Big5 traits score of user data:ahti7860.csv**
+ * **Big5 traits score of user: ahti7860**
    * ext: 2.6734401571990154
    * neu: 2.0246302264349607
    * agr: 4.080308148148174
    * con: 2.784746022053077
    * opn: 4.443022222222222
- * **Processing regression validation user data:akideares.csv**
+ * **Big5 traits score of user: akideares**
    * ext: 2.5545974530018314
    * neu: 2.003784450843272
    * agr: 3.9437908496732215
    * con: 2.8206301708647925
    * opn: 4.139455844353271
+  
+ * **Big5 traits score of user: AlJazeera9762528**
+   * ext: 2.3749773195876402
+   * neu: 1.8393435980551167
+   * agr: 3.6198148596321698
+   * con: 2.5831282930519155
+   * opn: 3.8450263157894824
 
-Processing regression validation user data:akidearest.csv
-ext: 2.580354668326884  
-neu: 2.059551578230647
-agr: 4.0291444096134015
-con: 2.7743188481729972
-opn: 4.246510736879648
-Processing classification validation user data:AlJazeera9762528.csv
-Processing regression validation user data:AlJazeera9762528.csv
-ext: 2.3749773195876402
-neu: 1.8393435980551167
-agr: 3.6198148596321698
-con: 2.5831282930519155
-opn: 3.8450263157894824
-Processing classification validation user data:almaamun89.csv
-Processing regression validation user data:almaamun89.csv
-ext: 2.7614930419202866
-neu: 2.0471144980611746
-agr: 3.956956762749446
-con: 3.057520558366843
-opn: 4.380026887175319
-Processing classification validation user data:AlZazeera9762528.csv
-Processing regression validation user data:AlZazeera9762528.csv
-ext: 2.5063501473740772
-neu: 1.8980908372827756
-agr: 3.8973648103309184
-con: 2.5429009474805637
-opn: 4.031657515073238
-Processing classification validation user data:BillGates.csv
-Processing regression validation user data:BillGates.csv
-ext: 2.6262106609808096
-neu: 2.0466279391424584
-agr: 3.9576126984126963
-con: 2.704762076953871
-opn: 4.400479574570943
-Processing classification validation user data:ClimateEnvoy.csv
-Processing regression validation user data:ClimateEnvoy.csv
-ext: 2.6297293858575967
-neu: 2.0493701108768074
-agr: 3.9629153005464457
-con: 3.0897803764098906
-opn: 4.427285860655737
-Processing classification validation user data:elonmusk.csv
-Processing regression validation user data:elonmusk.csv
-ext: 2.7586509992598094
-neu: 2.0294087136929417
-agr: 4.098523809523836
-con: 2.964101227029811
-opn: 4.313578072153328
-Processing classification validation user data:Haranjournalist.csv
-Processing regression validation user data:Haranjournalist.csv
-ext: 2.768682457438936
-neu: 2.0070499598715856
-agr: 3.7146263736263734
-con: 2.877231530037842
-opn: 4.535869897959184
-Processing classification validation user data:hasankhanO1.csv
-Processing regression validation user data:hasankhanO1.csv
-ext: 2.6550850544176896
-neu: 2.033668754231546
-agr: 4.117025521491789
-con: 2.969341871895665
-opn: 4.311283378422378
-Processing classification validation user data:hbloomquotes.csv
-Processing regression validation user data:hbloomquotes.csv
-ext: 2.7068581591640024
-neu: 2.045643983402486
-agr: 4.0777605
-con: 2.9878719192608054
-opn: 4.359978715775746
-Processing classification validation user data:JabedNazmul.csv
-Processing regression validation user data:JabedNazmul.csv
-ext: 2.545247802091144
-neu: 2.002006637338903
-agr: 3.9743261183261445
-con: 2.832014857123119
-opn: 4.182863585118381
-Processing classification validation user data:JoeBiden.csv
-Processing regression validation user data:JoeBiden.csv
-ext: 2.609375977256572
-neu: 2.03350852927616
-agr: 3.932243386243384
-con: 2.780903857184777
-opn: 4.362194328219448
-Processing classification validation user data:JQ_plaintalk.csv
-Processing regression validation user data:JQ_plaintalk.csv
-ext: 2.6322491888384154
-neu: 2.051333814420587
-agr: 4.0287015276145715
-con: 2.899206518909577
-opn: 4.398267878709448
-Processing classification validation user data:MaishaFarzana9.csv
-Processing regression validation user data:MaishaFarzana9.csv
-ext: 2.61003358208955
-neu: 2.0340210062240622
-agr: 3.933234374999998
-con: 2.823584668360463
-opn: 4.361147460937494
-Processing classification validation user data:Malala.csv
-Processing regression validation user data:Malala.csv
-ext: 2.6945740714851727
-neu: 2.006628399283501
-agr: 3.9992949471210344
-con: 3.0366388548345773
-opn: 4.368312412831256
-Processing classification validation user data:mushfiqur15.csv
-Processing regression validation user data:mushfiqur15.csv
-ext: 2.6747720364741627
-neu: 2.0294087136929417
-agr: 3.924315476190474
-con: 2.7829761127407684
-opn: 4.353399581589971
-Processing classification validation user data:POTUS.csv
-Processing regression validation user data:POTUS.csv
-ext: 2.6933912031482614
-neu: 2.0354666501517276
-agr: 3.936029850746266
-con: 3.14468538848288
-opn: 4.376481551632699
-Processing classification validation user data:PriyankaDeviiii.csv
-Processing regression validation user data:PriyankaDeviiii.csv
-ext: 2.7502914507772034
-neu: 1.9799674287118958
-agr: 4.104549686578178
-con: 2.5703005692732637
-opn: 4.449333333333334
-Processing classification validation user data:Sah75official.csv
-Processing regression validation user data:Sah75official.csv
-ext: 2.6790096666220506
-neu: 2.087249395626016
-agr: 4.135858585858605
-con: 2.924232119377811
-opn: 4.341052719889958
-Processing classification validation user data:seju_pandya.csv
-Processing regression validation user data:seju_pandya.csv
-ext: 2.565931632161769
-neu: 2.0603428829235257
-agr: 4.038428152492695
-con: 2.9033186524651793
-opn: 4.2619537788619235
-Processing classification validation user data:ShasankaScio.csv
-Processing regression validation user data:ShasankaScio.csv
-ext: 2.5908843486410627
-neu: 2.0361475830234803
-agr: 3.9998106060606244
-con: 2.8890177728484443
-opn: 4.191497403642179
-Processing classification validation user data:ShasankaScion.csv
-Processing regression validation user data:ShasankaScion.csv
-ext: 2.6660099299065303
-neu: 2.0757954545454522
-agr: 4.145378934624705
-con: 2.7440164770769577
-opn: 4.2882175387597155
-Processing classification validation user data:Slctvdplcate.csv
-Processing regression validation user data:Slctvdplcate.csv
-ext: 2.743355156587478
-neu: 2.033668754231546
-agr: 4.063057495505496
-con: 2.9038419400429376
-opn: 4.331054158951728
-Processing classification validation user data:tim_cook.csv
-Processing regression validation user data:tim_cook.csv
-ext: 2.3446356275303653
-neu: 2.098992413466098
-agr: 4.16109283625731
-con: 2.888926046623034
-opn: 4.393670263524934
+ * **Big5 traits score of user: BillGates**
+   * ext: 2.6262106609808096
+   * neu: 2.0466279391424584
+   * agr: 3.9576126984126963
+   * con: 2.704762076953871
+   * opn: 4.400479574570943
+
+* **Big5 traits score of user: data:ClimateEnvoy**
+   * ext: 2.6297293858575967
+   * neu: 2.0493701108768074
+   * agr: 3.9629153005464457
+   * con: 3.0897803764098906
+   * opn: 4.427285860655737
+ 
